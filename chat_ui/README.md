@@ -32,10 +32,22 @@ Perfecta para integrar con tu backend de IA, login, temas oscuros y más.
 
 ## Estructura de carpetas
 
+```bash
 src/
-├── components/ # Botones, inputs, cards
-├── views/ # Páginas: Login, Register, Chat
-├── stores/ # Zustand: user, theme, chat
-├── routes/ # Rutas protegidas
-├── App.tsx
-└── main.tsx
+├── components/         # Componentes reutilizables
+│   ├── ChatInput.tsx
+│   ├── Header.tsx
+│   └── ThemeToggle.tsx
+│
+├── views/              # Páginas principales
+│   ├── HomeView.tsx
+│   └── ChatView.tsx
+│
+├── stores/             # Zustand stores
+│   ├── user.ts
+│   └── chat.ts
+│   └── theme.ts
+│
+├── App.tsx             # Router principal
+├── main.tsx            # Entry point
+└── index.css           # Tailwind + global styles
