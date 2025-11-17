@@ -5,6 +5,9 @@ Perfecta para integrar con tu backend de IA, login, temas oscuros y más.
 
 ---
 
+**Backend del proyecto →** [Mira el codigo del backend aqui](https://github.com/juans5/Chatbot-backend)
+
+
 ## Características
 
 - **Login / Registro** con validación
